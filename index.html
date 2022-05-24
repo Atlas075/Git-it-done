@@ -20,6 +20,23 @@
 
 
   <main class="flex-row justify-space-between">
+    <div class="card">
+      <div class="col-12 col-md-4">
+        <h3 class="card-geader text-uppercase">Search By User</h3>
+        <form action="" class="card-body" id="user-form">
+          <label class="form-label" for="username">Username</label>
+          <input name="username" id="username" autofocus="tue" class="form-input" type="text">
+          <button type="submit" class="btn">Get User</button>
+        </form>
+      </div>
+    </div>
+
+
+    <div class="col-12 col-md-8">
+      <h2 class="subtitle">Showing Respositories for: <span id="repo-search-term"></span></h2>
+      <div id="repos-container" class="list-group"></div>
+    </div>
+
 
   </main>
 <script src="./assets/js/homepage.js"></script>
